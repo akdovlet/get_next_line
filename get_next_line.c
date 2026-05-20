@@ -6,7 +6,7 @@
 /*   By: akdovlet <akdovlet@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/01/13 16:18:24 by akdovlet          #+#    #+#             */
-/*   Updated: 2026/05/20 09:21:39 by akdovlet         ###   ########.fr       */
+/*   Updated: 2026/05/20 09:28:46 by akdovlet         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -102,22 +102,22 @@ char	*get_next_line(int fd)
 	return (line);
 }
 
-#include <stdio.h>
+// #include <stdio.h>
 
-int main()
-{
-	char *line;
-	int i = 0;
-	int fd = open("Auden.txt", O_RDONLY);
-	while (1)
-	{
-		line = get_next_line(fd);
-		if (!line)
-			break ;
-		// printf("%d", i);
-		i++;
-		printf("%s", line);
-		free(line);
-	}
-	close(fd);
-}
+// int main()
+// {
+// 	char *line;
+// 	int i = 0;
+// 	int fd = open("Auden.txt", O_RDONLY);
+// 	while (1)
+// 	{
+// 		line = get_next_line(fd);
+// 		if (!line)
+// 			break ;
+// 		// printf("%d", i);
+// 		i++;
+// 		printf("%s", line);
+// 		free(line);
+// 	}
+// 	close(fd);
+// }
