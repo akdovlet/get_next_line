@@ -6,7 +6,7 @@
 /*   By: akdovlet <akdovlet@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/01/13 14:40:25 by akdovlet          #+#    #+#             */
-/*   Updated: 2024/01/14 11:46:53 by akdovlet         ###   ########.fr       */
+/*   Updated: 2026/05/20 09:13:29 by akdovlet         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -20,7 +20,7 @@
 #  define BUFFER_SIZE 1024
 # endif
 
-int		ak_strchr(char *str, char c);
+int		ak_strchr(char *str, int c);
 int		ak_strlen(char *str);
 char	*ak_strjoin(char *s1, char *s2);
 char	*get_next_line(int fd);

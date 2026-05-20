@@ -6,7 +6,7 @@
 /*   By: akdovlet <akdovlet@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/01/13 22:42:25 by akdovlet          #+#    #+#             */
-/*   Updated: 2024/01/13 22:42:28 by akdovlet         ###   ########.fr       */
+/*   Updated: 2026/05/20 08:50:53 by akdovlet         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,8 +14,8 @@
 
 char	*read_to_newline(int fd, char *buffer)
 {
-	char	*tmp;
-	int		i;
+	char		*tmp;
+	ssize_t		i;
 
 	tmp = NULL;
 	if (buffer[0])

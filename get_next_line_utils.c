@@ -6,7 +6,7 @@
 /*   By: akdovlet <akdovlet@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/01/13 17:04:41 by akdovlet          #+#    #+#             */
-/*   Updated: 2024/02/02 15:38:08 by akdovlet         ###   ########.fr       */
+/*   Updated: 2026/05/20 09:12:37 by akdovlet         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -23,7 +23,7 @@ int	ak_strlen(char *str)
 	return (i);
 }
 
-int	ak_strchr(char *str, char c)
+int	ak_strchr(char *str, int c)
 {
 	int	i;
 
